@@ -1,74 +1,34 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-<<<<<<< HEAD
-
-# Visual Studio specific files
-*.vcxproj
+# Visual Studio 관련 파일
+.vs/
+*.vcxproj.user
 *.vcxproj.filters
 *.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-
-# Binary build outputs
-Binary/
-
-# Temporary files
-*.tmp
+*.ncb
 *.log
-*.cache
-*.bak
+*.tlog
+*.lastbuildstate
+*.idb
+*.pdb
+*.ilk
+*.ipch
 
+# 빌드 및 디버그 산출물
+x64/Debug/
+Debug/
+Release/
+*.exe
+*.dll
+*.lib
+*.exp
+*.obj
+*.o
+*.out
 # OS-specific files
 Thumbs.db
 .DS_Store
 
-# DummyClient specific
-DummyClient/Debug/
-DummyClient/Release/
-
-# GameServer specific
-GameServer/Debug/
-GameServer/Release/
-
-# ServerCore specific
-ServerCore/Debug/
-ServerCore/Release/
-=======
->>>>>>> a87ba7af8ebc4c73e7e6076ed94230779d77c734
+# 기타 임시 파일
+*.tmp
+*.cache
+*.bak
+*.swp
