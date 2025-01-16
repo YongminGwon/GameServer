@@ -1,0 +1,71 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Visual Studio specific files
+*.vcxproj
+*.vcxproj.filters
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Binary build outputs
+Binary/
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+*.bak
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# DummyClient specific
+DummyClient/Debug/
+DummyClient/Release/
+
+# GameServer specific
+GameServer/Debug/
+GameServer/Release/
+
+# ServerCore specific
+ServerCore/Debug/
+ServerCore/Release/
