@@ -30,6 +30,7 @@
 *.exe
 *.out
 *.app
+<<<<<<< HEAD
 
 # Visual Studio specific files
 *.vcxproj
@@ -69,3 +70,5 @@ GameServer/Release/
 # ServerCore specific
 ServerCore/Debug/
 ServerCore/Release/
+=======
+>>>>>>> a87ba7af8ebc4c73e7e6076ed94230779d77c734
