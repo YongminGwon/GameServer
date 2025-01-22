@@ -13,6 +13,13 @@
 #include <set>
 #include <unordered_map>
 #include <unordered_set>
+#include <memory>
+
+#include <Windows.h>
+#include <winsock2.h>
+#include <MSWSock.h>
+#include <WS2tcpip.h>
+#pragma comment(lib, "ws2_32.lib")
 
 #include <iostream>
 using namespace std;
