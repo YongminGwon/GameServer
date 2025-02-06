@@ -2,5 +2,7 @@ C:\Users\clums\Desktop\GameServer\ServerCore\CoreGlobal.cpp;C:\Users\clums\Deskt
 C:\Users\clums\Desktop\GameServer\ServerCore\CoreMacro.cpp;C:\Users\clums\Desktop\GameServer\ServerCore\x64\Debug\CoreMacro.obj
 C:\Users\clums\Desktop\GameServer\ServerCore\CorePch.cpp;C:\Users\clums\Desktop\GameServer\ServerCore\x64\Debug\CorePch.obj
 C:\Users\clums\Desktop\GameServer\ServerCore\CoreTLS.cpp;C:\Users\clums\Desktop\GameServer\ServerCore\x64\Debug\CoreTLS.obj
+C:\Users\clums\Desktop\GameServer\ServerCore\NetworkAddress.cpp;C:\Users\clums\Desktop\GameServer\ServerCore\x64\Debug\NetworkAddress.obj
 C:\Users\clums\Desktop\GameServer\ServerCore\pch.cpp;C:\Users\clums\Desktop\GameServer\ServerCore\x64\Debug\pch.obj
+C:\Users\clums\Desktop\GameServer\ServerCore\SocketUtils.cpp;C:\Users\clums\Desktop\GameServer\ServerCore\x64\Debug\SocketUtils.obj
 C:\Users\clums\Desktop\GameServer\ServerCore\ThreadManager.cpp;C:\Users\clums\Desktop\GameServer\ServerCore\x64\Debug\ThreadManager.obj
