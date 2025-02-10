@@ -8,7 +8,7 @@ LPFN_ACCEPTEX SocketUtils::AcceptEx = nullptr;
 void SocketUtils::Init()
 {
 	WSADATA wsaData;
-	ASSERT_CRASH(::WSAStartup(MAKEWORD(2, 2), OUT & wsaData) == 0);
+	ASSERT_CRASH(::WSAStartup(MAKEWORD(2, 2), &wsaData) == 0);
 
 	SOCKET initSocket = CreateSocket();
 	ASSERT_CRASH(BindWindowsFunction(initSocket, WSAID_CONNECTEX, reinterpret_cast<LPVOID*>(&ConnectEx)));
